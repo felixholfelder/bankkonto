@@ -9,8 +9,8 @@ public class Bankmitarbeiter extends Person {
     public Bankmitarbeiter() {
     }
 
-    public Bankmitarbeiter(String name, LocalDate datum) {
+    public Bankmitarbeiter(String name, LocalDate gebDatum) {
         this.name = name;
-        this.datum = datum;
+        this.gebDatum = gebDatum;
     }
 }
