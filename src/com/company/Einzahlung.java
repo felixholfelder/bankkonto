@@ -9,8 +9,8 @@ public interface Einzahlung {
 
     /**
      * Increases the saldo by the amount of einzBetrag
-     * @param einzBetrag: The amount of moeny that is paid in.
-     * @return
+     * @param einzBetrag: The amount of money that is paid in.
+     * @return Returns true, if the method einzahlen was successful, false if not
      * */
     boolean einzahlen(double einzBetrag);
 }
