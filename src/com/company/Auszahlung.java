@@ -7,6 +7,8 @@ package com.company;
  * */
 public interface Auszahlung {
 
+
+
     /**
      * Decreases the saldo by amount of auszBetrag
      * @param auszBetrag: The amount of money that is paid off.
